@@ -1,0 +1,54 @@
+.sidebar {
+  position: fixed;
+  width: 200px;
+  top: 0;
+  left: -200px;
+  bottom: 0;
+  z-index: 100;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+  padding: 0;
+
+  .mobile-icon {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 230px;
+    font-size: 30px;
+  }
+
+  .nav-link {
+    padding: 1rem;
+    font-weight: 500;
+    color: #28476B;
+    border-left: 2px solid #ffffff;
+  }
+
+  .nav-link:hover, .nav-link:focus {
+    border-left: 2px solid #5B50D3;
+    background: rgba(40, 71, 107, 0.03);
+  }
+
+  .active {
+    border-left: 2px solid #5B50D3;
+    background: rgba(40, 71, 107, 0.03);
+  }
+}
+
+.sidebar-on {
+  transition: all 1s ease-out 0s;
+  left: 0;
+}
+
+.sidebar-off {
+  transition: all 1s ease-out 0s;
+  left: -200px;
+}
+
+@media (min-width: 764px) {
+  .sidebar {
+    left: 0;
+    .mobile-icon {
+      display: none;
+    }
+  }
+}

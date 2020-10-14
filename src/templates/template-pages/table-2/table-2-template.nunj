@@ -1,0 +1,285 @@
+<div class="table-responsive">
+    {% include './components/modal.nunj' %}
+
+    <table class="table table-sm table-bordered">
+        <thead>
+        <tr>
+            <th colspan="2">SR NO.<i class="fas fa-chevron-down"></i></th>
+            <th scope="col">CPT CODE<i class="fas fa-chevron-down"></i></th>
+            <th scope="col">SERVICE TYPE<i class="fas fa-chevron-down"></i></th>
+            <th scope="col">FREQUENCY<i class="fas fa-chevron-down"></i></th>
+            <th scope="col">TOTAL BILLED AMOUNT<i class="fas fa-chevron-down"></i></th>
+            <th scope="col">MIN PER UNIT CHARGE<i class="fas fa-chevron-down"></i></th>
+            <th scope="col">MAX PER UNIT CHARGE<i class="fas fa-chevron-down"></i></th>
+            <th scope="col">AVG PER UNIT CHARGE<i class="fas fa-chevron-down"></i></th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr class="tab-not-even">
+            <td>
+                <a data-toggle="collapse" href="#col1" role="button" aria-expanded="false"
+                   class="tab-btn" aria-controls="col1">
+                    <i class="fas fa-plus-circle"></i>
+                </a>
+            </td>
+            <td scope="row">1</td>
+
+            <td>97110</td>
+            <td>Physical medicine a...</td>
+            <td>859940</td>
+            <td>$234,235,480.13</td>
+            <td>$0.01</td>
+            <td>$304.29</td>
+            <td>$11.80</td>
+        </tr>
+        <tr class="collapse-table tab-not-even">
+            <td></td>
+            <td colspan="8">
+                <div class="collapse multi-collapse" id="col1">
+                    {% include './components/sub-table.nunj' %}
+                    {% include './components/pagination.nunj' %}
+                </div>
+            </td>
+        </tr>
+
+        <tr class="tab-even">
+            <td class="tab-num">
+                <a data-toggle="collapse" href="#col2" role="button" aria-expanded="false"
+                   class="tab-btn" aria-controls="col2">
+                    <i class="fas fa-plus-circle"></i>
+                </a>
+            </td>
+            <td scope="row" class="tab-num">2</td>
+            <td>97110</td>
+            <td>Physical medicine a...</td>
+            <td>859940</td>
+            <td>$234,235,480.13</td>
+            <td>$0.01</td>
+            <td>$304.29</td>
+            <td>$11.80</td>
+        </tr>
+        <tr class="collapse-table tab-not-even">
+            <td></td>
+            <td colspan="8">
+                <div class="collapse multi-collapse" id="col2">
+                    {% include './components/sub-table.nunj' %}
+                    {% include './components/pagination.nunj' %}
+                </div>
+            </td>
+        </tr>
+
+        <tr class="tab-not-even">
+            <td>
+                <a data-toggle="collapse" href="#col3" role="button" aria-expanded="false"
+                   class="tab-btn" aria-controls="col3">
+                    <i class="fas fa-plus-circle"></i>
+                </a>
+            </td>
+            <td scope="row">3</td>
+            <td>97110</td>
+            <td>Physical medicine a...</td>
+            <td>859940</td>
+            <td>$234,235,480.13</td>
+            <td>$0.01</td>
+            <td>$304.29</td>
+            <td>$11.80</td>
+        </tr>
+        <tr class="collapse-table tab-not-even">
+            <td></td>
+            <td colspan="8">
+                <div class="collapse multi-collapse" id="col3">
+                    {% include './components/sub-table.nunj' %}
+                    {% include './components/pagination.nunj' %}
+                </div>
+            </td>
+        </tr>
+
+        <tr class="tab-even">
+            <td class="tab-num">
+                <a data-toggle="collapse" href="#col4" role="button" aria-expanded="false"
+                   class="tab-btn" aria-controls="col4">
+                   <i class="fas fa-plus-circle"></i>
+                </a>
+            </td>
+            <td scope="row" class="tab-num">4</td>
+            <td>97110</td>
+            <td>Physical medicine a...</td>
+            <td>859940</td>
+            <td>$234,235,480.13</td>
+            <td>$0.01</td>
+            <td>$304.29</td>
+            <td>$11.80</td>
+        </tr>
+        <tr class="collapse-table tab-not-even">
+            <td></td>
+            <td colspan="8">
+                <div class="collapse multi-collapse" id="col4">
+                    {% include './components/sub-table.nunj' %}
+                    {% include './components/pagination.nunj' %}
+                </div>
+            </td>
+        </tr>
+
+        <tr class="tab-not-even">
+            <td>
+                <a data-toggle="collapse" href="#col5" role="button" aria-expanded="false"
+                   class="tab-btn" aria-controls="col5">
+                    <i class="fas fa-plus-circle"></i>
+                </a>
+            </td>
+            <td scope="row">5</td>
+
+            <td>97110</td>
+            <td>Physical medicine a...</td>
+            <td>859940</td>
+            <td>$234,235,480.13</td>
+            <td>$0.01</td>
+            <td>$304.29</td>
+            <td>$11.80</td>
+        </tr>
+        <tr class="collapse-table tab-not-even">
+            <td></td>
+            <td colspan="8">
+                <div class="collapse multi-collapse" id="col5">
+                    {% include './components/sub-table.nunj' %}
+                    {% include './components/pagination.nunj' %}
+                </div>
+            </td>
+        </tr>
+
+        <tr class="tab-even">
+            <td class="tab-num">
+                <a data-toggle="collapse" href="#col6" role="button" aria-expanded="false"
+                   class="tab-btn" aria-controls="col6">
+                    <i class="fas fa-plus-circle"></i>
+                </a>
+            </td>
+            <td scope="row" class="tab-num">6</td>
+            <td>97110</td>
+            <td>Physical medicine a...</td>
+            <td>859940</td>
+            <td>$234,235,480.13</td>
+            <td>$0.01</td>
+            <td>$304.29</td>
+            <td>$11.80</td>
+        </tr>
+        <tr class="collapse-table tab-not-even">
+            <td></td>
+            <td colspan="8">
+                <div class="collapse multi-collapse" id="col6">
+                    {% include './components/sub-table.nunj' %}
+                    {% include './components/pagination.nunj' %}
+                </div>
+            </td>
+        </tr>
+
+        <tr class="tab-not-even">
+            <td>
+                <a data-toggle="collapse" href="#col7" role="button" aria-expanded="false"
+                   class="tab-btn" aria-controls="col7">
+                    <i class="fas fa-plus-circle"></i>
+                </a>
+            </td>
+            <td scope="row">7</td>
+
+            <td>97110</td>
+            <td>Physical medicine a...</td>
+            <td>859940</td>
+            <td>$234,235,480.13</td>
+            <td>$0.01</td>
+            <td>$304.29</td>
+            <td>$11.80</td>
+        </tr>
+        <tr class="collapse-table tab-not-even">
+            <td></td>
+            <td colspan="8">
+                <div class="collapse multi-collapse" id="col7">
+                    {% include './components/sub-table.nunj' %}
+                    {% include './components/pagination.nunj' %}
+                </div>
+            </td>
+        </tr>
+
+        <tr class="tab-even">
+            <td class="tab-num">
+                <a data-toggle="collapse" href="#col8" role="button" aria-expanded="false"
+                   class="tab-btn" aria-controls="col8">
+                    <i class="fas fa-plus-circle"></i>
+                </a>
+            </td>
+            <td scope="row" class="tab-num">8</td>
+            <td>97110</td>
+            <td>Physical medicine a...</td>
+            <td>859940</td>
+            <td>$234,235,480.13</td>
+            <td>$0.01</td>
+            <td>$304.29</td>
+            <td>$11.80</td>
+        </tr>
+        <tr class="collapse-table tab-not-even">
+            <td></td>
+            <td colspan="8">
+                <div class="collapse multi-collapse" id="col8">
+                    {% include './components/sub-table.nunj' %}
+                    {% include './components/pagination.nunj' %}
+                </div>
+            </td>
+        </tr>
+
+        <tr class="tab-not-even">
+            <td>
+                <a data-toggle="collapse" href="#col9" role="button" aria-expanded="false"
+                   class="tab-btn" aria-controls="col9">
+                    <i class="fas fa-plus-circle"></i>
+                </a>
+            </td>
+            <td scope="row">9</td>
+
+            <td>97110</td>
+            <td>Physical medicine a...</td>
+            <td>859940</td>
+            <td>$234,235,480.13</td>
+            <td>$0.01</td>
+            <td>$304.29</td>
+            <td>$11.80</td>
+        </tr>
+        <tr class="collapse-table">
+            <td></td>
+            <td colspan="8">
+                <div class="collapse multi-collapse" id="col9">
+                    {% include './components/sub-table.nunj' %}
+                    {% include './components/pagination.nunj' %}
+                </div>
+            </td>
+        </tr>
+
+        <tr class="tab-even">
+            <td class="tab-num">
+                <a data-toggle="collapse" href="#col10" role="button" aria-expanded="false"
+                   class="tab-btn" aria-controls="col10">
+                    <i class="fas fa-plus-circle"></i>
+                </a>
+            </td>
+            <td scope="row" class="tab-num">10</td>
+            <td>97110</td>
+            <td>Physical medicine a...</td>
+            <td>859940</td>
+            <td>$234,235,480.13</td>
+            <td>$0.01</td>
+            <td>$304.29</td>
+            <td>$11.80</td>
+        </tr>
+        <tr class="collapse-table">
+            <td></td>
+            <td colspan="8">
+                <div class="collapse multi-collapse" id="col10">
+                    {% include './components/sub-table.nunj' %}
+                    {% include './components/pagination.nunj' %}
+                </div>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    {% include './components/pagination.nunj' %}
+</div>

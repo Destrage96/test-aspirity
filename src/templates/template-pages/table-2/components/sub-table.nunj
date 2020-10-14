@@ -1,0 +1,201 @@
+<table class="table table-bordered table-responsive-lg table-sm table-striped">
+    <thead>
+    <tr>
+        <th scope="col" class="collapse-tab-num">#<i class="fas fa-chevron-down"></i>
+        </th>
+        <th scope="col">Claim Number<i class="fas fa-chevron-down"></i></th>
+        <th scope="col">Invoice No<i class="fas fa-chevron-down"></i></th>
+        <th scope="col">Billing Provider...<i class="fas fa-chevron-down"></i></th>
+        <th scope="col">Tax Id<i class="fas fa-chevron-down"></i></th>
+        <th scope="col">Bill id<i class="fas fa-chevron-down"></i></th>
+        <th scope="col">Line Id<i class="fas fa-chevron-down"></i></th>
+        <th scope="col">Disability Res...<i class="fas fa-chevron-down"></i></th>
+        <th scope="col">Service Date<i class="fas fa-chevron-down"></i></th>
+        <th scope="col">Line Change<i class="fas fa-chevron-down"></i></th>
+        <th scope="col">Per Unit Change<i class="fas fa-chevron-down"></i></th>
+        <th scope="col">Details<i class="fas fa-chevron-down"></i></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td scope="row" class="collapse-tab-num">1</td>
+        <td>199704630</td>
+        <td>501305052598</td>
+        <td>Mervyn’s</td>
+        <td>339741464</td>
+        <td>79104600</td>
+        <td>25372860</td>
+        <td>Medical</td>
+        <td>04-11-2018</td>
+        <td>$25.00</td>
+        <td>$268.80</td>
+        <td>
+            <a href="#myModal" data-toggle="modal">
+                <i class="fas fa-info-circle"></i>
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td scope="row" class="collapse-tab-num">2</td>
+        <td>199704630</td>
+        <td>501305052598</td>
+        <td>Mervyn’s</td>
+        <td>339741464</td>
+        <td>79104600</td>
+        <td>25372860</td>
+        <td>Medical</td>
+        <td>04-11-2018</td>
+        <td>$25.00</td>
+        <td>$268.80</td>
+        <td>
+            <a href="#myModal" data-toggle="modal">
+                <i class="fas fa-info-circle"></i>
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td scope="row" class="collapse-tab-num">3</td>
+        <td>199704630</td>
+        <td>501305052598</td>
+        <td>Mervyn’s</td>
+        <td>339741464</td>
+        <td>79104600</td>
+        <td>25372860</td>
+        <td>Medical</td>
+        <td>04-11-2018</td>
+        <td>$25.00</td>
+        <td>$268.80</td>
+        <td>
+            <a href="#myModal" data-toggle="modal">
+                <i class="fas fa-info-circle"></i>
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td scope="row" class="collapse-tab-num">4</td>
+        <td>199704630</td>
+        <td>501305052598</td>
+        <td>Mervyn’s</td>
+        <td>339741464</td>
+        <td>79104600</td>
+        <td>25372860</td>
+        <td>Medical</td>
+        <td>04-11-2018</td>
+        <td>$25.00</td>
+        <td>$268.80</td>
+        <td>
+            <a href="#myModal" data-toggle="modal">
+                <i class="fas fa-info-circle"></i>
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td scope="row" class="collapse-tab-num">5</td>
+        <td>199704630</td>
+        <td>501305052598</td>
+        <td>Mervyn’s</td>
+        <td>339741464</td>
+        <td>79104600</td>
+        <td>25372860</td>
+        <td>Medical</td>
+        <td>04-11-2018</td>
+        <td>$25.00</td>
+        <td>$268.80</td>
+        <td>
+            <a href="#myModal" data-toggle="modal">
+                <i class="fas fa-info-circle"></i>
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td scope="row" class="collapse-tab-num">6</td>
+        <td>199704630</td>
+        <td>501305052598</td>
+        <td>Mervyn’s</td>
+        <td>339741464</td>
+        <td>79104600</td>
+        <td>25372860</td>
+        <td>Medical</td>
+        <td>04-11-2018</td>
+        <td>$25.00</td>
+        <td>$268.80</td>
+        <td>
+            <a href="#myModal" data-toggle="modal">
+                <i class="fas fa-info-circle"></i>
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td scope="row" class="collapse-tab-num">7</td>
+        <td>199704630</td>
+        <td>501305052598</td>
+        <td>Mervyn’s</td>
+        <td>339741464</td>
+        <td>79104600</td>
+        <td>25372860</td>
+        <td>Medical</td>
+        <td>04-11-2018</td>
+        <td>$25.00</td>
+        <td>$268.80</td>
+        <td>
+            <a href="#myModal" data-toggle="modal">
+                <i class="fas fa-info-circle"></i>
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td scope="row" class="collapse-tab-num">8</td>
+        <td>199704630</td>
+        <td>501305052598</td>
+        <td>Mervyn’s</td>
+        <td>339741464</td>
+        <td>79104600</td>
+        <td>25372860</td>
+        <td>Medical</td>
+        <td>04-11-2018</td>
+        <td>$25.00</td>
+        <td>$268.80</td>
+        <td>
+            <a href="#myModal" data-toggle="modal">
+                <i class="fas fa-info-circle"></i>
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td scope="row" class="collapse-tab-num">9</td>
+        <td>199704630</td>
+        <td>501305052598</td>
+        <td>Mervyn’s</td>
+        <td>339741464</td>
+        <td>79104600</td>
+        <td>25372860</td>
+        <td>Medical</td>
+        <td>04-11-2018</td>
+        <td>$25.00</td>
+        <td>$268.80</td>
+        <td>
+            <a href="#myModal" data-toggle="modal">
+                <i class="fas fa-info-circle"></i>
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td scope="row" class="collapse-tab-num">10</td>
+        <td>199704630</td>
+        <td>501305052598</td>
+        <td>Mervyn’s</td>
+        <td>339741464</td>
+        <td>79104600</td>
+        <td>25372860</td>
+        <td>Medical</td>
+        <td>04-11-2018</td>
+        <td>$25.00</td>
+        <td>$268.80</td>
+        <td>
+            <a href="#myModal" data-toggle="modal">
+                <i class="fas fa-info-circle"></i>
+            </a>
+        </td>
+    </tr>
+    </tbody>
+</table>

@@ -1,0 +1,62 @@
+.modal-dialog {
+  display: flex;
+  justify-content: center;
+  .modal-content {
+    width: 100%;
+    .modal-header {
+      border-bottom: none;
+    }
+    .modal-title {
+      font-weight: 560;
+    }
+    .modal-table-1 {
+      max-width: 750px;
+      font-size: 12px;
+      margin-bottom: 30px;
+
+      table {
+          width: max-content;
+      }
+
+      .table th, .table td {
+        text-align: left;
+        border-top: none;
+      }
+
+      p {
+        margin-bottom: 3px;
+      }
+
+      .modal-tab-titles {
+        color: #5B50D3;
+      }
+    }
+
+    .modal-table-2 {
+      table {
+        width: max-content;
+        text-align: center;
+        th {
+          font-weight: normal;
+          background-color: #5b50d37d;
+          font-size: 0.75rem;
+          padding: 0.40rem;
+        }
+
+        td {
+          padding: 0.20rem;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .modal-dialog {
+    display: flex;
+    justify-content: center;
+    .modal-content {
+      width: 1000px;
+    }
+  }
+}

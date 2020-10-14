@@ -1,0 +1,28 @@
+<div>
+    <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar">
+        <a href="#" class="mobile-icon">
+            <i class="fas fa-bars"></i>
+        </a>
+
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link {% if activePage == "index" %} active {% endif %}" href="./index.html">
+              <i class="fas fa-desktop"></i>
+              Table 1
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {% if activePage == "table-2" %} active {% endif %}" href="./table-2.html">
+              <i class="far fa-clipboard"></i>
+              Table 2
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {% if activePage == "table-3" %} active {% endif %}" href="./table-3.html">
+              <i class="fas fa-desktop"></i>
+              Table 3
+            </a>
+          </li>
+        </ul>
+    </nav>
+</div>

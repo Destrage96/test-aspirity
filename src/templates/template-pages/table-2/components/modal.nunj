@@ -1,0 +1,193 @@
+<div id="myModal" class="modal fade" data-keyboard="true" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Table 2 details</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-table-1 table-responsive">
+                    <table class="table table-responsive-sm">
+                      <thead>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            <p class="modal-tab-titles">Claim Number</p>
+                            <p>2015274101</p>
+                          </td>
+                          <td>
+                            <p class="modal-tab-titles">Billing Provider Name</p>
+                            <p>Dun Rite Lawn Maintenanc</p>
+                          </td>
+                          <td>
+                            <p class="modal-tab-titles">Billing Provider Address</p>
+                            <p>
+                                4343 Columbia Mine Road, 455
+                           </p>
+                          </td>
+                          <td>
+                             <p class="modal-tab-titles">Billing Provider Phone</p>
+                             <p>2015274101</p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p class="modal-tab-titles">Claimant Name</p>
+                            <p>Beth Towns</p>
+                          </td>
+                          <td>
+                              <p class="modal-tab-titles">Claimant’s SSN</p>
+                              <p>426490507</p>
+                          </td>
+                          <td>
+                             <p class="modal-tab-titles">Claimant DOB</p>
+                             <p>12/31/1969</p>
+                          </td>
+                          <td>
+                              <p class="modal-tab-titles">Claimant Gender</p>
+                              <p>Female</p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p class="modal-tab-titles">Claimant Address</p>
+                            <p>
+                                474 Mcwhorter Road,
+                                Mem
+                            </p>
+                          </td>
+                          <td>
+                              <p class="modal-tab-titles">Insured’s Policy / Group Number</p>
+                              <p>157051802</p>
+                          </td>
+                          <td>
+                             <p class="modal-tab-titles">Diagnosis Or Nature of Injury</p>
+                             <p>Fracture</p>
+                          </td>
+                          <td>
+                               <p class="modal-tab-titles">Date of Injury</p>
+                               <p>08/16/2015</p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                </div>
+
+                <div class="table-responsive modal-table-2">
+                    <table class="table table-bordered table-responsive-lg table-striped">
+                        <thead>
+                        <tr>
+                            <th scope="col" class="collapse-tab-num">#<i class="fas fa-chevron-down"></i></th>
+                            <th scope="col">SERVICE FROM DA..<i class="fas fa-chevron-down"></i></th>
+                            <th scope="col">SERVICE THROUGH..<i class="fas fa-chevron-down"></i></th>
+                            <th scope="col">BILLED PROCEDUR..<i class="fas fa-chevron-down"></i></th>
+                            <th scope="col">PAID PROCEDURE ...<i class="fas fa-chevron-down"></i></th>
+                            <th scope="col">PAID PROCEDURE CODE DESK<i class="fas fa-chevron-down"></i></th>
+                            <th scope="col">LINE CHARGE</th>
+                            <th scope="col">LINE ALLOWED..<i class="fas fa-chevron-down"></i></th>
+                            <th scope="col">PLACE OF...<i class="fas fa-chevron-down"></i></th>
+                            <th scope="col">PLACE OF...<i class="fas fa-chevron-down"></i></th>
+                            <th scope="col">MODIFIER<i class="fas fa-chevron-down"></i></th>
+                            <th scope="col">UNITS..<i class="fas fa-chevron-down"></i></th>
+                            <th scope="col">RENDERING...<i class="fas fa-chevron-down"></i></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td scope="row" class="collapse-tab-num">1</td>
+                            <td>04-12-2018</td>
+                            <td>04-12-2018</td>
+                            <td>0000</td>
+                            <td>97110</td>
+                            <td>MANUAL THERAPY TQS 1/> RE</td>
+                            <td>$95.00</td>
+                            <td>$195.08</td>
+                            <td>11</td>
+                            <td>11</td>
+                            <td>11</td>
+                            <td>11</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                             <td scope="row" class="collapse-tab-num">2</td>
+                             <td>04-12-2018</td>
+                             <td>04-12-2018</td>
+                             <td>0000</td>
+                             <td>97110</td>
+                             <td>MANUAL THERAPY TQS 1/> RE</td>
+                             <td>$95.00</td>
+                             <td>$195.08</td>
+                             <td>11</td>
+                             <td>11</td>
+                             <td>11</td>
+                             <td>11</td>
+                             <td></td>
+                        </tr>
+                        <tr>
+                             <td scope="row" class="collapse-tab-num">3</td>
+                             <td>04-12-2018</td>
+                             <td>04-12-2018</td>
+                             <td>0000</td>
+                             <td>97110</td>
+                             <td>MANUAL THERAPY TQS 1/> RE</td>
+                             <td>$95.00</td>
+                             <td>$195.08</td>
+                             <td>11</td>
+                             <td>11</td>
+                             <td>11</td>
+                             <td>11</td>
+                             <td></td>
+                        </tr>
+                        <tr>
+                             <td scope="row" class="collapse-tab-num">1</td>
+                             <td>04-12-2018</td>
+                             <td>04-12-2018</td>
+                             <td>0000</td>
+                             <td>97110</td>
+                             <td>MANUAL THERAPY TQS 1/> RE</td>
+                             <td>$95.00</td>
+                             <td>$195.08</td>
+                             <td>11</td>
+                             <td>11</td>
+                             <td>11</td>
+                             <td>11</td>
+                             <td></td>
+                        </tr>
+                        <tr>
+                             <td scope="row" class="collapse-tab-num">2</td>
+                             <td>04-12-2018</td>
+                             <td>04-12-2018</td>
+                             <td>0000</td>
+                             <td>97110</td>
+                             <td>MANUAL THERAPY TQS 1/> RE</td>
+                             <td>$95.00</td>
+                             <td>$195.08</td>
+                             <td>11</td>
+                             <td>11</td>
+                             <td>11</td>
+                             <td>11</td>
+                             <td></td>
+                        </tr>
+                        <tr>
+                             <td scope="row" class="collapse-tab-num">3</td>
+                             <td>04-12-2018</td>
+                             <td>04-12-2018</td>
+                             <td>0000</td>
+                             <td>97110</td>
+                             <td>MANUAL THERAPY TQS 1/> RE</td>
+                             <td>$95.00</td>
+                             <td>$195.08</td>
+                             <td>11</td>
+                             <td>11</td>
+                             <td>11</td>
+                             <td>11</td>
+                             <td></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

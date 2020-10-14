@@ -1,0 +1,19 @@
+{% extends 'layout.nunj' %}
+{% set activePage="index" %}
+
+{% block title %}
+{% endblock %}
+
+{% block link %}
+{% endblock %}
+
+{% block nav %}
+    {% include './shared/components/sidebar.nunj' %}
+{% endblock %}
+
+{% block main %}
+    {% include './template-pages/index/index-template.nunj' %}
+{% endblock %}
+
+{% block script %}
+{% endblock %}

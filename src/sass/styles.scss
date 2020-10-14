@@ -1,0 +1,86 @@
+@import './variables.scss';
+@import "node_modules/bootstrap/scss/bootstrap";
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-size: $font-size;
+  line-height: $line-height;
+  font-family: $font-family;
+  color: $main-color;
+  background-color: #E5E5E5;
+}
+
+.content {
+  padding-top: 110px;
+}
+
+.table {
+  width: max-content;
+}
+
+.collapse-table td {
+  padding: 0 !important;
+}
+.collapse-table th {
+  background-color: #f78d2c69;
+}
+
+.collapse-table .collapse-tab-num {
+  padding: 0.55rem;
+}
+
+table {
+  text-align: center;
+  th {
+    font-weight: normal;
+    background-color: #5b50d37d;
+    font-size: 0.65rem;
+  }
+
+  td {
+    font-size: 0.65rem;
+  }
+}
+
+
+.table-striped tbody tr:nth-of-type(odd), .tab-even {
+  background-color: #5b50d31f;
+}
+
+.tab-not-even {
+  background-color: #ffffff;
+}
+
+.tab-num {
+  background-color: #fff;
+}
+
+.svg-inline--fa.fa-w-14 {
+  margin-left: 3px;
+  width: 0.650em;
+}
+
+.svg-inline--fa.fa-w-16 {
+  color: #ff6f00;
+}
+
+.activeIcon {
+  display: none;
+}
+
+@media (min-width: 1025px) {
+  .table {
+    width: 100%;
+  }
+}
+
+
+// components
+@import './components/sidebar.scss';
+@import 'components/modal.scss';
+@import 'components/pagination.scss';
+

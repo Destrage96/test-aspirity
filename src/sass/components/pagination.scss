@@ -1,0 +1,21 @@
+.pagination {
+  .page-item:first-child .page-link {
+    background-color: #5b50d300 !important;
+    border: none;
+  }
+
+  .page-item:last-child .page-link {
+    background-color: #5b50d300 !important;
+    border: none;
+  }
+
+  .page-link {
+    color: #000;
+    background-color: #5b50d300;
+    border: none;
+    &:active {
+      color: #ffffff;
+      background-color: #5B50D3 !important;
+    }
+  }
+}
