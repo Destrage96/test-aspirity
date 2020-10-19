@@ -12,7 +12,7 @@
 {% endblock %}
 
 {% block main %}
-    {% include './template-pages/index/index-template.nunj' %}
+    {% include './template-pages/index-template.nunj' %}
 {% endblock %}
 
 {% block script %}
